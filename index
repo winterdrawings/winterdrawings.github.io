@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Winters Commissions</title>
+</head>
+<body>
+
+<h1>Welcome to my Commission Page! </h1>
+<img src="WintersOC.jpg" alt="alternatetext">
+<p>Hi there! My name is Winter and I'm a first-year college student who makes digtal media art using my creative skils. 
+I'm also a part time content creator and mental heatth advocate. Click on the links below to see my work!</p>
+
+
+<a href="mywork.html"> Here is my work that I've done so far!</a>
+<a href="contact.html"> Click this link to find how you can contact me!</a>
+</body>
+</html>
