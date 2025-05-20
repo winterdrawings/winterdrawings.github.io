@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>P5js</title>
-<!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body style="background-color: lavender; color: blue;">
-<body>
-
- <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-sm bg-light">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mcart.html">Minecraft Art</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="glitch.html">Glitch</a>
-      </li>
-	   <li class="nav-item">
-        <a class="nav-link" href="netart.html">Net Art</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mashup.html">Mashup</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="p5js.html">Self Portrait</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="ginteraction.html">DIY Game</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="exhibition.html">First Exhibition!</a>
-      </li>
-	   </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="repo.html">REPO!</a>
-      </li>
-	 </nav>
-	 
-  <a class="navbar-expand-sm gradient-navbar d flex justify-content-between">
-	<a class="navbar-brand" href="portfolio.html">
-		<img src="https://winterdrawings.github.io/gradgift.jpg" "width=70" height="70" class="rounded-circle logo-border">
-</a>
-</nav>
-
-<h1>p5js Game</h1>
-<p>Come check out this game that I've created! Your goal is to catch Jerry!</p>
+	<head>
+		<title>Catch Jerry!</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="gradgift.png">
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Permanent+Marker&display=swap" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Scrollbar Customization -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@6.2.3/dist/simplebar.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/simplebar@6.2.3/dist/simplebar.min.js"></script>
+	</head>
+	
+	<body style="background-color: lavender; color: blue;">
+		<div class="container-fluid text-center" data-simplebar>
+		
+			<!-- Header -->
+			<nav class="navbar navbar-expand-lg gradient-navbar">
+			
+				<!-- Icon & Name -->
+				<a class="navbar-brand d-flex align-items-center ms-3 pt-0 pb-1" href="portfolio.html">
+					<img src="gradgift.png" width="70" height="70" class="rounded-circle logo-border me-3">
+					<h3 class="mb-0">Shirley Yee</h3>
+				</a>
+				
+				<!-- Menu Dropdown -->
+				<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+				  aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!-- NavBar Items -->
+				<div class="collapse navbar-collapse" id="navbarMenu">
+					<ul class="navbar-nav ms-auto page-style">
+						<li><a class="nav-link" href="portfolio.html">Home</a></li>
+						<li><a class="nav-link" href="mcart.html">Minecraft Art</a></li>
+						<li><a class="nav-link" href="3dprinting.html">3D Printing</a></li>
+						<li><a class="nav-link" href="glitch.html">Glitch</a></li>
+						<li><a class="nav-link" href="netart.html">Net Art</a></li>
+						<li><a class="nav-link" href="mashup.html">Mashup</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle no-arrow" href="#" id="jsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Javascript</a>
+							<ul class="dropdown-menu" aria-labelledby="jsDropdown">
+								<li><a class="dropdown-item" href="p5js.html">Self Portrait</a></li>
+								<li><a class="dropdown-item" href="photoshop.html">Photoshop Brushes</a></li>
+								<li><a class="dropdown-item" href="ginteraction.html">DIY Game</a></li>
+							</ul>
+						</li>
+						<li><a class="nav-link" href="exhibition.html">First Exhibition!</a></li>
+						<li><a class="nav-link pe-md-3" href="repo.html">REPO!</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Come check out this game that I've created! Your goal is to catch Jerry!</p><br> -->
+			<!-- Iframe and Javascript Code -->
 <iframe src="diygame2/index.html" height="606" width="606"title="p5js Selfie"></iframe>
+
